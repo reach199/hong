@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Jeongnimsaji-R';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/Jeongnimsaji-R.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'YClover-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/YClover-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body,h1,h2,p{margin:0;}
+
+header{
+    background-color: #ffff00;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+header h1 {
+    color: #54543a;
+    font-family: 'YClover-Bold';
+    font-size: 2.7em;
+}
+
+section {height: 100vh;}
+
+.section1{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(coffee-8388244_1280.webp);
+    background-size: cover;
+}
+
+.section1 h2, .section1 p {
+    margin-left: 20px;
+    color: white;
+    text-shadow: black;
+    font-family:  'Jeongnimsaji-R';
+    font-size: 1.8em;
+}
+
+.section1 p {
+    font-size: 1.2em;
+}
+
+.gallery{
+    display: flex;
+    justify-content: end;
+}
+
+.pic1,.pic2,.pic3 {
+    width: 25vw;
+    height: 80vh; /*화면의 높이사이즈 기준으로 비율*/
+    background-color: gray;
+    margin: 20px;
+
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/*이미지 넣는 공간*/
+.pic1 {
+    background-image: url(coffee-8388244_1280.webp);
+    background-size: cover;
+}
+.pic2 {
+    background-image: url(horse-8414296_1280.webp);
+    background-size: cover;
+}
+.pic3 {
+    background-image: url(buildings-8217275_1280.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+/*푸터 디자인*/
+footer {
+    background-color: rgb(239, 239, 239);
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+}
